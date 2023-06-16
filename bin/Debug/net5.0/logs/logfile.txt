@@ -1,0 +1,128 @@
+2023-06-13 10:47:59.9865 - Warn - BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue - Cannot change type from BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement] to Object | value: BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement] System.InvalidCastException: Object must implement IConvertible.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)    at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+
+2023-06-13 10:48:00.2489 - Error - BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue - Cannot convert from BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement] to Object | value: BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement] Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: B. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.Linq.JToken.ReadFrom(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)    at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.Linq.JToken.ReadFrom(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+
+2023-06-13 11:09:58.5226 - Warn - BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue - Cannot change type from BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement] to Object | value: BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement] System.InvalidCastException: Object must implement IConvertible.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)    at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+
+2023-06-13 11:09:58.6479 - Error - BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue - Cannot convert from BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement] to Object | value: BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement] Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: B. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.Linq.JToken.ReadFrom(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)    at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.Linq.JToken.ReadFrom(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+
+2023-06-13 11:14:08.7587 - Warn - BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue - Cannot change type from BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement] to Object | value: BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement] System.InvalidCastException: Object must implement IConvertible.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)    at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+
+2023-06-13 11:14:08.8967 - Error - BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue - Cannot convert from BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement] to Object | value: BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement] Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: B. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.Linq.JToken.ReadFrom(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)    at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.Linq.JToken.ReadFrom(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+
+2023-06-13 11:15:51.9929 - Warn - BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue - Cannot change type from BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement] to Object | value: BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement] System.InvalidCastException: Object must implement IConvertible.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)    at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+
+2023-06-13 11:15:52.1072 - Error - BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue - Cannot convert from BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement] to Object | value: BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement] Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: B. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.Linq.JToken.ReadFrom(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)    at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.Linq.JToken.ReadFrom(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+
+2023-06-13 11:21:13.7372 - Warn - BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue - Cannot change type from BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement] to Object | value: BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement] System.InvalidCastException: Object must implement IConvertible.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)    at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+
+2023-06-13 11:21:13.9464 - Error - BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue - Cannot convert from BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement] to Object | value: BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement] Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: B. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.Linq.JToken.ReadFrom(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)    at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.Linq.JToken.ReadFrom(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+
+2023-06-13 13:50:39.3900 - Warn - BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue - Cannot change type from BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement] to Object | value: BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement] System.InvalidCastException: Object must implement IConvertible.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)    at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+
+2023-06-13 13:50:39.5475 - Error - BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue - Cannot convert from BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement] to Object | value: BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement] Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: B. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.Linq.JToken.ReadFrom(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)    at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.Linq.JToken.ReadFrom(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+
+2023-06-15 09:38:37.7448 - Warn - BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue - Cannot change type from BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement] to Object | value: BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement] System.InvalidCastException: Object must implement IConvertible.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)    at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+
+2023-06-15 09:38:37.8662 - Error - BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue - Cannot convert from BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement] to Object | value: BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement] Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: B. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.Linq.JToken.ReadFrom(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)    at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.Linq.JToken.ReadFrom(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+
+2023-06-15 09:42:35.4769 - Warn - BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue - Cannot change type from BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement] to Object | value: BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement] System.InvalidCastException: Object must implement IConvertible.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)    at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+
+2023-06-15 09:42:35.5611 - Error - BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue - Cannot convert from BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement] to Object | value: BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement] Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: B. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.Linq.JToken.ReadFrom(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)    at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.Linq.JToken.ReadFrom(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+

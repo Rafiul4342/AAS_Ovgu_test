@@ -1,0 +1,451 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\tofu\\Source\\Repos\\I40test\\I40test.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\tofu\\Source\\Repos\\I40Extension\\I40Extension.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tofu\\Source\\Repos\\I40Extension\\I40Extension.csproj",
+        "projectName": "I40Extension",
+        "projectPath": "C:\\Users\\tofu\\Source\\Repos\\I40Extension\\I40Extension.csproj",
+        "packagesPath": "C:\\Users\\tofu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tofu\\Source\\Repos\\I40Extension\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tofu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\tofu\\Source\\Repos\\neuget_package_updated": {},
+          "D:\\Microservice\\packages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\FauserAASV2\\basyx-dotnet-examples\\ComplexAssetAdministrationShellScenario\\ComplexAssetAdministrationShellScenario.csproj": {
+                "projectPath": "D:\\FauserAASV2\\basyx-dotnet-examples\\ComplexAssetAdministrationShellScenario\\ComplexAssetAdministrationShellScenario.csproj"
+              },
+              "D:\\FauserAASV2\\basyx-dotnet-examples\\MultiAssetAdministrationShell\\MultiAssetAdministrationShell.csproj": {
+                "projectPath": "D:\\FauserAASV2\\basyx-dotnet-examples\\MultiAssetAdministrationShell\\MultiAssetAdministrationShell.csproj"
+              },
+              "D:\\FauserAASV2\\basyx-dotnet-examples\\SimpleAssetAdministrationShell\\SimpleAssetAdministrationShell.csproj": {
+                "projectPath": "D:\\FauserAASV2\\basyx-dotnet-examples\\SimpleAssetAdministrationShell\\SimpleAssetAdministrationShell.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BaSyx.AAS.Client.Http": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Basyx.Models": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "MQTTnet": {
+              "target": "Package",
+              "version": "[4.2.0.706, )"
+            },
+            "MQTTnet.Extensions.ManagedClient": {
+              "target": "Package",
+              "version": "[4.2.0.706, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tofu\\Source\\Repos\\I40test\\I40test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tofu\\Source\\Repos\\I40test\\I40test.csproj",
+        "projectName": "I40test",
+        "projectPath": "C:\\Users\\tofu\\Source\\Repos\\I40test\\I40test.csproj",
+        "packagesPath": "C:\\Users\\tofu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tofu\\Source\\Repos\\I40test\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tofu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\tofu\\Source\\Repos\\neuget_package_updated": {},
+          "D:\\Microservice\\packages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\tofu\\Source\\Repos\\I40Extension\\I40Extension.csproj": {
+                "projectPath": "C:\\Users\\tofu\\Source\\Repos\\I40Extension\\I40Extension.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BaSyx.AAS.Client.Http": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\FauserAASV2\\basyx-dotnet-examples\\ComplexAssetAdministrationShellScenario\\ComplexAssetAdministrationShellScenario.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\FauserAASV2\\basyx-dotnet-examples\\ComplexAssetAdministrationShellScenario\\ComplexAssetAdministrationShellScenario.csproj",
+        "projectName": "ComplexAssetAdministrationShellScenario",
+        "projectPath": "D:\\FauserAASV2\\basyx-dotnet-examples\\ComplexAssetAdministrationShellScenario\\ComplexAssetAdministrationShellScenario.csproj",
+        "packagesPath": "C:\\Users\\tofu\\.nuget\\packages\\",
+        "outputPath": "D:\\FauserAASV2\\basyx-dotnet-examples\\ComplexAssetAdministrationShellScenario\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tofu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\tofu\\Source\\Repos\\neuget_package_updated": {},
+          "D:\\Microservice\\packages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\FauserAASV2\\basyx-dotnet-examples\\SimpleAssetAdministrationShell\\SimpleAssetAdministrationShell.csproj": {
+                "projectPath": "D:\\FauserAASV2\\basyx-dotnet-examples\\SimpleAssetAdministrationShell\\SimpleAssetAdministrationShell.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "BaSyx.AAS.Client.Http": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "BaSyx.AAS.Server.Http": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "BaSyx.Common.UI": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "BaSyx.Common.UI.Swagger": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "BaSyx.Registry.Client.Http": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "BaSyx.Registry.ReferenceImpl.FileBased": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "BaSyx.Registry.Server.Http": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "BaSyx.Submodel.Client.Http": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "BaSyx.Submodel.Server.Http": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.14.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\FauserAASV2\\basyx-dotnet-examples\\MultiAssetAdministrationShell\\MultiAssetAdministrationShell.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\FauserAASV2\\basyx-dotnet-examples\\MultiAssetAdministrationShell\\MultiAssetAdministrationShell.csproj",
+        "projectName": "MultiAssetAdministrationShell",
+        "projectPath": "D:\\FauserAASV2\\basyx-dotnet-examples\\MultiAssetAdministrationShell\\MultiAssetAdministrationShell.csproj",
+        "packagesPath": "C:\\Users\\tofu\\.nuget\\packages\\",
+        "outputPath": "D:\\FauserAASV2\\basyx-dotnet-examples\\MultiAssetAdministrationShell\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tofu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\tofu\\Source\\Repos\\neuget_package_updated": {},
+          "D:\\Microservice\\packages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "BaSyx.AAS.Server.Http": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "BaSyx.Common.UI": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "BaSyx.Common.UI.Swagger": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.14.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\FauserAASV2\\basyx-dotnet-examples\\SimpleAssetAdministrationShell\\SimpleAssetAdministrationShell.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\FauserAASV2\\basyx-dotnet-examples\\SimpleAssetAdministrationShell\\SimpleAssetAdministrationShell.csproj",
+        "projectName": "SimpleAssetAdministrationShell",
+        "projectPath": "D:\\FauserAASV2\\basyx-dotnet-examples\\SimpleAssetAdministrationShell\\SimpleAssetAdministrationShell.csproj",
+        "packagesPath": "C:\\Users\\tofu\\.nuget\\packages\\",
+        "outputPath": "D:\\FauserAASV2\\basyx-dotnet-examples\\SimpleAssetAdministrationShell\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tofu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\tofu\\Source\\Repos\\neuget_package_updated": {},
+          "D:\\Microservice\\packages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "BaSyx.AAS.Server.Http": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "BaSyx.Common.UI": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "BaSyx.Common.UI.Swagger": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "BaSyx.Submodel.Server.Http": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.14.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
